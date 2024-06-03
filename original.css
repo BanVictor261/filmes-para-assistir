@@ -150,6 +150,9 @@ body {
     .conteudo--texto {
        
     }
+    .cabecario--titulo{
+        font-size: 3.30rem;
+    }
     
 }
 footer {
