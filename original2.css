@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: grey
+
+}
+.cabecario {
+    
+    
+    background-color: black;
+    display: flex;
+    
+    text-align: center;
+    
+    
+}
+.imagem-base {
+    height: 30%;
+    width: 30%;
+    padding: 0% 5%;
+
+}
+.cabecario--titulo{
+    color: red;
+    font-size: 4.90rem;     
+    float: right;
+    margin: 0.2%;
+    font-family: "Concert One", sans-serif;
+    text-align: center;
+    padding: 5% 0%;
+}
+.imagem--texto {
+    margin: 1%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    
+    
+}
+.conteudo--titulo {
+    color: aliceblue;
+    font-size: 2.25rem;
+    padding: 2%;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+
+}
+.conteudo--subtitulo {
+    color: aliceblue;
+    font-size: 1.87rem;
+    padding: 3%;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+    
+
+}
+.conteudo--texto {
+    color: aliceblue;
+    font-size: 1.40rem;
+    padding: 2%;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+
+}
+.links {
+    color: aliceblue;
+    font-size: 1.50rem;
+    background-color: red;
+    padding: 7px;
+    border-radius: 16px;
+    text-decoration: none;
+    text-align: center;
+    width: 40%;
+    font-family: "Gloria Hallelujah", cursive;
+    
+}
+.apresentacao {
+    margin: 5% 15%;
+    display:block;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    
+    
+}
+.links-2 {
+    color: aliceblue;
+    font-size: 1.50rem;
+    background-color: green;
+    padding: 7px;
+    border-radius: 16px;
+    text-decoration: none;
+    text-align: center;
+    width: 47%;
+    font-family: "Gloria Hallelujah", cursive;
+    
+    
+}
+.links--link {
+    color: aliceblue;
+    font-size: 1.50rem;
+    background-color: red;
+    padding: 7px;
+    border-radius: 16px;
+    text-decoration: none;
+    text-align: center;
+    width: 30%;
+    font-family: "Gloria Hallelujah", cursive;
+    
+}
+.todos--os--links {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.todos--os--links a {
+    margin-left: 6px;
+    border: 3px solid black;
+}
+.imagem--filme {
+    width: 100%;
+    height:200%;
+    
+}
+
+.link--3{
+    color: aliceblue;
+    font-size: 1.50rem;
+    background-color: green;
+    padding: 7px;
+    border-radius: 16px;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Gloria Hallelujah", cursive;
+    width: 30%;
+}
+
+.icone{
+    width: 13%;
+    text-align: center;
+    vertical-align: middle;
+}
+@media (max-width: 1000px){
+.apresentacao {
+flex-direction: column;
+        
+    
+}
+.imagem--texto {
+    flex-direction: column;
+        
+        
+}
+.imagem--filme {
+        padding: 2%;
+    }
+
+.todos--os--links {
+    flex-direction: column;    
+    text-align: center;
+
+    
+
+}
+.todos--os--links a {
+    width: 300px;
+    margin-bottom:5px ;
+
+}
+}
+
+
+
+
+footer {
+    background-color: black;
+
+}
+.titulo-footer {
+    color: red;
+    font-family: "DM Serif Text", serif;
+
+}
+.classes {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5% 5%;
+    
+}
+
+.link-footer {
+    color: aliceblue;
+    font-family: "Gloria Hallelujah", cursive;
+}
+.link2-footer {
+    color: aliceblue;
+    font-family: "Gloria Hallelujah", cursive;
+}
+.link3-footer {
+    color: aliceblue;
+    font-family: "Gloria Hallelujah", cursive;
+}
