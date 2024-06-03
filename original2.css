@@ -152,13 +152,14 @@ body {
 }
 @media (max-width: 1000px){
 .apresentacao {
-flex-direction: column;
-        
+    flex-direction: column;
+    text-align: center;    
     
 }
 .imagem--texto {
     flex-direction: column;
-        
+    width: auto;
+    height: auto;    
         
 }
 .imagem--filme {
@@ -176,6 +177,9 @@ flex-direction: column;
     width: 300px;
     margin-bottom:5px ;
 
+}
+.cabecario--titulo{
+    font-size: 1.30rem;
 }
 }
 
