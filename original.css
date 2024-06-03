@@ -79,6 +79,7 @@ body {
     border-radius: 16px;
     text-decoration: none;
     text-align: center;
+    width: 40%;
     font-family: "Gloria Hallelujah", cursive;
 }
 .apresentacao {
@@ -108,6 +109,7 @@ body {
     border-radius: 16px;
     text-decoration: none;
     text-align: center;
+    width: 30%;
     font-family: "Gloria Hallelujah", cursive;
 }
 .imagem--filme {
@@ -121,6 +123,7 @@ body {
     border-radius: 16px;
     text-decoration: none;
     text-align: center;
+    width: 30%;
     font-family: "Gloria Hallelujah", cursive;
     
 }
